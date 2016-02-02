@@ -1,5 +1,7 @@
 html {
   background: white;
+
+
 }
 img {
   max-width: 100%
@@ -16,21 +18,61 @@ li {
 
 .octocat {
   width: 400px;
-  margin: 0 auto;
+  margin: 15px;
   float: left;
-  padding-right: 27px;
-
-
 }
 .octocat a img {
-  border: 2px solid grey;
-  border-radius: 3px;
+  border: 2px solid #D0D0D0;
+  border-radius: 4px;
+
+}
+.authors {
+  float: right;
+  padding: 0;
+  margin-left: 10px;
 
 }
 
 .authors a img {
   border: none;
-  width: 75px;
-  float: right;
+  width: 30px;
+  padding-top: 5px;
 
+}
+a {
+  text-decoration: none;
+}
+
+.image-number {
+  float: left;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #D0D0D0;
+  margin-top: 10px;
+
+
+}
+.image-number::before {
+  content: "#"
+}
+
+.image-caption {
+  float: right;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: grey;
+
+}
+.image-footer {
+  border-bottom: 2px solid #D0D0D0;
+  position: relative;
+  height: 45px;
+
+}
+.image-caption a {
+  color: #484848;
+}
+.image-caption span {
+  display: inline-block;
+  margin-top: 10px;
 }
