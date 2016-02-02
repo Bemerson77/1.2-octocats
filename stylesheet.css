@@ -12,14 +12,16 @@ img {
 
 
 .octocat {
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   float: left;
+  padding-right: 20px
 
 
 }
 .octocat a img {
-  border: 1px solid grey;
+  border: 2px solid grey;
+
 }
 
 .image-number {
