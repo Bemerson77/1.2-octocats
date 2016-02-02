@@ -1,3 +1,29 @@
 html {
-  background: chartreuse;
+  background: white;
+}
+img {
+  max-width: 100%
+}
+
+.octadex {
+  position: absolute;
+  padding: 10px;
+}
+
+
+.octocat {
+  max-width: 500px;
+  margin: 0 auto;
+  float: left;
+
+
+}
+.octocat a img {
+  border: 1px solid grey;
+}
+
+.image-number {
+
+}
+
 }
